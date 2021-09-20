@@ -1,5 +1,5 @@
-The Odin Recipe Project
+#The Odin Recipe Project
 
-A simple recipe project using only HTML. 
+A simple recipe project using HTML and CSS. 
 
 https://yokaion.github.io/odin-recipes/
