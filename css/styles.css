@@ -10,7 +10,7 @@ body {
     text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
     margin: 16px;
     padding: 16px;
 }
@@ -20,7 +20,11 @@ h1 {
     letter-spacing: 3px;
 }
 
-h2, p {
+h3 {
+    border-bottom: 1px solid #68686D;
+}
+
+li, p {
     color: #68686D;
 }
 
@@ -29,17 +33,26 @@ img {
     height: auto;
 }
 
-.container {
+.container, .description {
     width: 450px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
+.container-left {
+    text-align: left;
+    padding: 10px;
+    margin: 0 70px;
+}
+
 ul {
     list-style: none;
 }
 
+.container-left li {
+    padding: 10px;
+}
 a {
     text-decoration: none;
     color: #000;
@@ -55,6 +68,20 @@ a {
     background-color: #ADF4ED;
 }
 
-p {
-    margin-top: 50px;
+.btn-small {
+    width: 80px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom {
+    margin: 30px;
+    text-align: left;
+}
+
+.description {
+    width: 700px;
+    height: auto;
+    line-height: 30px;
 }
