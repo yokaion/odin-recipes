@@ -13,6 +13,7 @@ body {
 .wrapper {
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 
 /* Headings */
@@ -53,11 +54,9 @@ img {
 .btn-small {
     width: 100px;
     height:auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-
+/* Text styling*/
 li, p {
     color: #68686D;
 }
@@ -67,7 +66,9 @@ a {
     color: #000;
 }
 
-
+ul {
+    list-style: none;
+}
 
 .bottom {
     margin: 30px;
