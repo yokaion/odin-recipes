@@ -59,6 +59,9 @@ img {
 /* Text styling*/
 li, p {
     color: #68686D;
+    padding: 12px;
+    line-height: 30px;
+    text-justify: auto;
 }
 
 a {
@@ -66,11 +69,11 @@ a {
     color: #000;
 }
 
-ul {
-    list-style: none;
+.container {
+    text-align: left;
 }
 
-.bottom {
+.footer {
     margin: 30px;
     text-align: left;
 }
