@@ -54,6 +54,7 @@ img {
 .btn-small {
     width: 100px;
     height:auto;
+    margin-bottom: 15px;
 }
 
 /* Text styling*/
